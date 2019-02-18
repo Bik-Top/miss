@@ -1,0 +1,52 @@
+.custom-card{
+  .card{
+    align-items: center;
+    text-align: center;
+    &:hover{
+      .card-title{
+        transition-delay: .3s;
+        transition-duration: .4s;
+        color: #ec7468 !important;
+      }
+      .wrap-img{
+          transform: rotate(45deg);
+          border-color: #ec7468 !important;
+          img,svg{
+            transform: rotate(-45deg);
+          }
+      }
+    }
+  }
+  .wrap-img{
+    width: 75px;
+    height: 75px;
+    margin: 30px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .6s;
+    transform: rotate(0deg);
+    img,svg{
+      transition: .6s;
+      transform: rotate(0);
+    }
+  }
+  .card-title{
+    text-transform: uppercase;
+    position: relative;
+    margin-bottom: 40px;
+    &:after{
+      content: '';
+      display: block;
+      position: absolute;
+      height: 1px;
+      background: #747474;
+      width: 40px;
+      bottom: -20px;
+      left: 50%;
+      margin-left: -20px;
+    }
+  }
+
+}
+

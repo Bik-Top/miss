@@ -1,0 +1,43 @@
+.Study{
+
+  padding-bottom: 150px;
+  .carousel{
+    background-color: #fff;
+  }
+  background-color: #f4f5f9;
+  .carousel-indicators li{
+    background-color: #E74C3C;
+    border-radius: 50%;
+    height: 5px;
+    width: 5px;
+  }
+  .col-md-7{
+    position: relative;
+    z-index: 1;
+  }
+  .col-md-6{
+    margin-left: -9%;
+    overflow: hidden;
+  }
+
+  .modal-body{
+    input{
+      border: solid 1px #ced4da;
+      border-radius: 2rem;
+    }
+  }
+
+  .modal-footer{
+    button{
+      border-radius: 2rem !important;
+      background-color: rgb(25, 93, 142);
+    }
+  }
+}
+.btn-danger-recoler{
+  background-color: #E74C3C;
+  border-color: #E74C3C;
+}
+.carusel-wrap{
+  margin-top: 70px;
+}
